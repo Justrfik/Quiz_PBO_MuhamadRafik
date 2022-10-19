@@ -1,11 +1,13 @@
 package com.pertemuan6;
 
 class Anggota{
-    String nik,nama,alamat;
-    int saldo,pinjam;
-    double pajak;
+    //acces specifier/modifier private
+    private String nik,nama,alamat;
+    private int saldo,pinjam;
+    private double pajak;
 
     //method tanpa return dengan parameter
+    //acces specifier/modifier public
    public Anggota(String nik , String nama, String alamat){
         this.nik=nik;
         this.nama=nama;
